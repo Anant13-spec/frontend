@@ -91,25 +91,29 @@ input{
   padding-left: 10px;
   border-style: hidden;
 }
-button{
-  height: 30px;
-  font-size: 20px;
+button {
+  margin-top: 20px;
+  padding: 8px 25px;
+  font-size: 18px;
   border-radius: 10px;
-  border-color: #058b5a;
+  border: 2px solid #058b5a;
   background-color: #06bd64;
+  color: black;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
 }
-button:hover{
+
+button:hover {
   background-color: #058b5a;
   color: white;
-  cursor: pointer;
-  transition: background-color 0.3s ease; 
 }
-button:active{
-  background-color: #058b5a;
+
+button:active {
+  background-color: #046f48;
   color: white;
-  cursor: pointer;
-  transition: background-color 0.1s ease; 
+  transform: scale(0.98);
 }
+
 
 
 
