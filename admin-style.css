@@ -92,3 +92,32 @@ button:active{
   cursor: pointer;
   transition: background-color 0.1s ease; 
 }
+.register-medicine-cnt{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+  }
+.register-medicine{
+    background-color: #20cd8d;
+    margin: 20px;
+    border-radius: 10px;
+    padding: 20px;
+  }
+.register-form{
+  align-items: center;
+  justify-content: center;
+  }
+.label{
+  margin-left: 20px;
+  font-size: 20px;
+  font-family: 'Nunito', sans-serif;
+}
+.input{
+  width: 300px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+.admin-submit{
+  margin-left: 110px;
+}
